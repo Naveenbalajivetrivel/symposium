@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+  <html lang="en">
+  
+  <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="./styles.css" />
+      <title>Image Slider in HTML, CSS & JavaScript - Coding Power</title>
+  
+       <!-- Link Swiper's CSS -->
+       <link
+       rel="stylesheet"
+       href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+     />
+	 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="assets/css/test.css">
+
+  </head>
+  
+  <body>
+  
+      <div class="container">
+          <div class="slider mySwiper">
+              <div class="image-items swiper-wrapper">
+                  <div class="image swiper-slide"><div class="card qwe">
+					<img src="..." class="card-img-top" alt="...">
+					<div class="card">
+					  <h5 class="card-title">Card title</h5>
+					  <p class="card-text">Some quick esdgsfdgfdsgdsfhgfdfhdfghdgdg xample text to build on the card title and make up the bulk of the card's content.</p>
+					  <a href="#" class="btn btn-primary">Go somewhere</a>
+					</div>
+				  </div></div>
+                  <div class="image swiper-slide"><div class="card">
+					<img src="..." class="card-img-top" alt="...">
+					<div class="card"   >
+					  <h5 class="card-title">Card title</h5>
+					  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					  <a href="#" class="btn btn-primary">Go somewhere</a>
+					</div>
+				  </div>
+        </div>
+                  <div class="image swiper-slide"><div class="card" >
+					<img src="..." class="card-img-top" alt="...">
+					<div class="card-body">
+					  <h5 class="card-title">Card title</h5>
+					  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					  <a href="#" class="btn btn-primary">Go somewhere</a>
+					</div>
+				  </div></div>
+                  <div class="image swiper-slide"><div class="card" >
+					<img src="..." class="card-img-top" alt="...">
+					<div class="card-body">
+					  <h5 class="card-title">Card title</h5>
+					  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					  <a href="#" class="btn btn-primary">Go somewhere</a>
+					</div>
+				  </div></div>
+                  <div class="image swiper-slide"><div class="card" >
+					<img src="..." class="card-img-top" alt="...">
+					<div class="card-body">
+					  <h5 class="card-title">Card title</h5>
+					  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					  <a href="#" class="btn btn-primary">Go somewhere</a>
+					</div>
+				  </div></div>
+                  <div class="image swiper-slide"><div class="card" >
+					<img src="..." class="card-img-top" alt="...">
+					<div class="card-body">
+					  <h5 class="card-title">Card title</h5>
+					  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					  <a href="#" class="btn btn-primary">Go somewhere</a>
+					</div>
+				  </div></div>
+                  <div class="image swiper-slide"><div class="card">
+					<img src="..." class="card-img-top" alt="...">
+					<div class="card-body">
+					  <h5 class="card-title">Card title</h5>
+					  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					  <a href="#" class="btn btn-primary">Go somewhere</a>
+					</div>
+				  </div></div>
+                  <div class="image swiper-slide"><div class="card" >
+					<img src="..." class="card-img-top" alt="...">
+					<div class="card-body">
+					  <h5 class="card-title">Card title</h5>
+					  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					  <a href="#" class="btn btn-primary">Go somewhere</a>
+					</div>
+				  </div></div>
+                  <div class="image swiper-slide"><div class="card" >
+					<img src="..." class="card-img-top" alt="...">
+					<div class="card-body">
+					  <h5 class="card-title">Card title</h5>
+					  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					  <a href="#" class="btn btn-primary">Go somewhere</a>
+					</div>
+				  </div></div>
+              </div>
+              <div class="swiper-button-next arrowButton right"></div>
+              <div class="swiper-button-prev arrowButton left"></div>
+          </div>
+      </div>
+  
+      <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerGroup: 1,
+          loop: true,
+          fade: true,
+          grabCursor: true,
+          loopFillGroupWithBlank: true,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          breakpoints: {
+            500: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            868: {
+              slidesPerView: 3,
+              spaceBetween: 30,
+            },
+            1000: {
+              slidesPerView: 4,
+              spaceBetween: 30,
+            },
+            1250: {
+              slidesPerView: 5,
+              spaceBetween: 30,
+            },
+          },
+        });
+      </script>
+  
+  </body>
+  </html>
