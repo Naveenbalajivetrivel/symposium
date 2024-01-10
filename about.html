@@ -1,119 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Rendezvous</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-<!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Navigation Bar with Logo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="test.css">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-  <link rel="stylesheet" href="customabout.css">
-
-  <!-- =======================================================
-  * Template Name: PhotoFolio - v1.1.1
-  * Template URL: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </head>
-
 <body>
-  <!-- ======= Header ======= -->
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center  me-auto me-lg-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <img src="logo2-removebg-preview (1).png">
-      </a>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="services.html">Events</a></li>
-          <li><a href="rules.html">Rules</a></li>
-          <li><a href="transport.html">Transport</a></li>
-          <li><a href="about.html" class="active">About</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-      </nav><!-- .navbar -->
-
-      <div class="header-social-links">
-        <!--<a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>-->
-        <a href="https://www.instagram.com/invites/contact/?i=15dz104q5bdoj&utm_content=psz7eba" target="_blank" class="instagram"><img style="width: 20px;" src="instagramwhite.png" alt=""></a>
-        <a href="https://www.linkedin.com/in/rendezvous-cse-rmd-788165255" target="_blank" class="linkedin"><img style="width: 20px;" src="linkedlinwhite.png" alt=""></i></a>
-      </div>
-      <i class="mobile-nav-toggle mobile-nav-show"><img style="width: 30px; height: 35px; position: relative; top: 4px; right: 10px;" src="image.jpg" alt=""></i>
-      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-
-    </div>
-  </header><!-- End Header -->
-
-  <main id="main" data-aos="fade" data-aos-delay="1500">
-
-    <!-- ======= End Page Header ======= -->
-    <div class="page-header d-flex align-items-center">
-      <div class="container position-relative">
-        <div class="row d-flex justify-content-center">
-          <div class="col-lg-6 text-center">
-            <h2>About Us</h2>
-            <p>The rendezvous2K22 is to bring the young budding engineering graduates together to present their findings and discuss future trends, directions and new challenges in the Computer science and engineering field. This symposium aims to intensify the information exchange of their ideas in theoretical research and practical developments. This symposium can be used to discuss what and how the student community can facilitate the process of technology development. This would prove to be a boon to students. It will be a forum for new ideas and concepts and also would endeavour to examine the different dimensions of Computer science and engineering field.</p>
+    <header>
+        <img src="logo.png" alt="Logo" style="height: 50px; width: auto;">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="events.html">Events</a>
+            <a href="Rules.html">Rules</a>
+            <a href="transport.html">Transport</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <p class="text-center fs-1" style="padding-top: 20px;">About Us</p>
+    <p class="fs-4" style="text-align: justify; padding:30px;">The rendezvous2K22 is to bring the young budding engineering graduates together to present their findings and discuss future trends, directions and new challenges in the Computer science and engineering field. This symposium aims to intensify the information exchange of their ideas in theoretical research and practical developments. This symposium can be used to discuss what and how the student community can facilitate the process of technology development. This would prove to be a boon to students. It will be a forum for new ideas and concepts and also would endeavour to examine the different dimensions of Computer science and engineering field.</p>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="https://rmd.ac.in/img/Chairman.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Thiru.R.S.Munirathinam</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">Founder &amp;Chairman</h6>
+                    <p class="card-text" style="text-align: justify;">Thiru.R.S.Munirathinam Founder-Chairman of R.M.K Group of Institutions is well known for his philanthropic attitude and service as an elected member of the State Assembly of Tamil Nadu.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 20rem;">
+                  <img src="https://rmd.ac.in/administration/images/principal.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Dr.N.Anbuchezhian</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">Principal</h6>
+                    <p class="card-text" >Dr.N.Anbuchezhian, an accomplished academician, possesses a rich experience of more than 36 years in Teaching, Research and Administration in the affiliated colleges of Anna University, Chennai.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="https://rmd.ac.in/img/academicdean.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Dr.K.K. Thyagharajan</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">Dean Research</h6>
+                    <p class="card-text" style="text-align: justify;">Dr.K.K. Thyagharajan received his B.Eng. degree in Electrical and Electronics Engineering from PSG College of Technology, Madras University and received his M.Eng. degree in Applied Electronics from Coimbatore Institute of Technology. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 20rem;">
+                  <img src="https://rmd.ac.in/dept/cse/images/hod.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Dr.P.Ezhumalai</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">HOD CSE Department</h6>
+                    <p class="card-text">Dr.P.Ezhumalai B.E, M.Tech, Ph.D is the Professor and Head of the Department of Computer Science and Engineering at R.M.D Engineering College, Chennai.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="https://rmd.ac.in/img/Chairman.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Thiru.R.S.Munirathinam</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">Founder &amp;Chairman</h6>
+                    <p class="card-text" style="text-align: justify;">Thiru.R.S.Munirathinam Founder-Chairman of R.M.K Group of Institutions is well known for his philanthropic attitude and service as an elected member of the State Assembly of Tamil Nadu.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 20rem;">
+                  <img src="https://rmd.ac.in/administration/images/principal.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Dr.N.Anbuchezhian</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">Principal</h6>
+                    <p class="card-text" >Dr.N.Anbuchezhian, an accomplished academician, possesses a rich experience of more than 36 years in Teaching, Research and Administration in the affiliated colleges of Anna University, Chennai.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="https://rmd.ac.in/img/academicdean.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Dr.K.K. Thyagharajan</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">Dean Research</h6>
+                    <p class="card-text" style="text-align: justify;">Dr.K.K. Thyagharajan received his B.Eng. degree in Electrical and Electronics Engineering from PSG College of Technology, Madras University and received his M.Eng. degree in Applied Electronics from Coimbatore Institute of Technology. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 20rem;">
+                  <img src="https://rmd.ac.in/dept/cse/images/hod.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Dr.P.Ezhumalai</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">HOD CSE Department</h6>
+                    <p class="card-text">Dr.P.Ezhumalai B.E, M.Tech, Ph.D is the Professor and Head of the Department of Computer Science and Engineering at R.M.D Engineering College, Chennai.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="https://rmd.ac.in/img/Chairman.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Thiru.R.S.Munirathinam</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">Founder &amp;Chairman</h6>
+                    <p class="card-text" style="text-align: justify;">Thiru.R.S.Munirathinam Founder-Chairman of R.M.K Group of Institutions is well known for his philanthropic attitude and service as an elected member of the State Assembly of Tamil Nadu.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 20rem;">
+                  <img src="https://rmd.ac.in/administration/images/principal.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Dr.N.Anbuchezhian</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">Principal</h6>
+                    <p class="card-text" >Dr.N.Anbuchezhian, an accomplished academician, possesses a rich experience of more than 36 years in Teaching, Research and Administration in the affiliated colleges of Anna University, Chennai.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="https://rmd.ac.in/img/academicdean.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Dr.K.K. Thyagharajan</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">Dean Research</h6>
+                    <p class="card-text" style="text-align: justify;">Dr.K.K. Thyagharajan received his B.Eng. degree in Electrical and Electronics Engineering from PSG College of Technology, Madras University and received his M.Eng. degree in Applied Electronics from Coimbatore Institute of Technology. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 20rem;">
+                  <img src="https://rmd.ac.in/dept/cse/images/hod.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Dr.P.Ezhumalai</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">HOD CSE Department</h6>
+                    <p class="card-text">Dr.P.Ezhumalai B.E, M.Tech, Ph.D is the Professor and Head of the Department of Computer Science and Engineering at R.M.D Engineering College, Chennai.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div><!-- End Page Header -->
-
-  </main><!-- End #main -->
-  
-  <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Rendezvous</span></strong>: All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact: -->
-        <!-- You can delete the links only if you purchased the pro version: -->
-        <!-- Licensing information: https://bootstrapmade:com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade:com/photofolio-bootstrap-photography-website-template/ -->
-        Designed by <a href="#">Rendezvous</a>
-      </div>
     </div>
-  </footer><!-- End Footer -->
-
-  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><img src="arrow-up-short.svg" alt="arrow"></a>
-
-  <div id="preloader">
-    <div class="line"></div>
-  </div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
 </body>
-
 </html>

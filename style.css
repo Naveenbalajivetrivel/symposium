@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: rgba(127, 255, 212, 0.1) url('back1.jpg') no-repeat center center fixed; /* Set background image with reduced opacity */
+            background-size: cover; /* Ensure the background covers the entire screen */
+            color: rgba(255, 255, 255);
+}
+.ba{
+    width: 100vh;
+    height: 100wh;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5); /* Set black low-opacity overlay */
+    pointer-events: none;
+}
+
+.card.hover-expand:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.01);
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: rgba(255, 255, 255, 1.0);
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgba(0, 0, 0, 0.9);
+}
+.main-content {
+    text-align: center;
+    padding-top: 50px;
+    color: #fff;
+    position: relative;
+    z-index: 101;
+    
+}
+.con{
+    background-color: blue !important;
+    color: #fff !important;
+}
+
+.rendezvous {
+    font-size: 150px; /* Adjust the font size for RENDEZVOUS */
+}
+.card_modal{
+    padding-left: 150px;
+    padding-top: 50px;
+}
+.trans{
+    padding-top: 20px;
+}
+.main_trans{
+    padding-top: 20px;
+}
+.faq{
+    padding-left:150px;
+    padding-right: 150px;
+    padding-top: 50px;
+}
+
+.timer{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
+    color: #fff;
+    position: relative;
+    z-index: 101;
+}
+.reg{
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    nav a {
+        margin: 5px 0;
+    }
+}
